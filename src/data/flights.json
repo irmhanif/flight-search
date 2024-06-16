@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "airline": "Airline A",
+    "flightNumber": "AA123",
+    "departure": "2024-06-17T08:20:00",
+    "arrival": "2024-06-17T11:25:00",
+    "from": "DEL",
+    "to": "BOM",
+    "price": 2500
+  },
+  {
+    "id": 2,
+    "airline": "Airline B",
+    "flightNumber": "AB456",
+    "departure": "2024-06-17T09:10:00",
+    "arrival": "2024-06-17T13:30:00",
+    "from": "BLR",
+    "to": "DEL",
+    "price": 3000
+  },
+  {
+    "id": 3,
+    "airline": "Airline C",
+    "flightNumber": "AC789",
+    "departure": "2024-06-17T10:00:00",
+    "arrival": "2024-06-17T12:30:00",
+    "from": "BOM",
+    "to": "BLR",
+    "price": 3500
+  },
+  {
+    "id": 4,
+    "airline": "Airline D",
+    "flightNumber": "AD101",
+    "departure": "2024-06-17T11:40:00",
+    "arrival": "2024-06-17T16:30:00",
+    "from": "MAA",
+    "to": "DEL",
+    "price": 3300
+  },
+  {
+    "id": 5,
+    "airline": "Airline E",
+    "flightNumber": "AE112",
+    "departure": "2024-06-18T12:05:00",
+    "arrival": "2024-06-18T14:30:00",
+    "from": "DEL",
+    "to": "BOM",
+    "price": 2700
+  },
+  {
+    "id": 6,
+    "airline": "Airline F",
+    "flightNumber": "AF131",
+    "departure": "2024-06-18T13:20:00",
+    "arrival": "2024-06-18T15:50:00",
+    "from": "BOM",
+    "to": "DEL",
+    "price": 2200
+  },
+  {
+    "id": 7,
+    "airline": "Airline G",
+    "flightNumber": "AG415",
+    "departure": "2024-06-18T14:10:00",
+    "arrival": "2024-06-18T16:50:00",
+    "from": "BLR",
+    "to": "MAA",
+    "price": 2100
+  },
+  {
+    "id": 8,
+    "airline": "Airline H",
+    "flightNumber": "AH526",
+    "departure": "2024-06-18T15:10:00",
+    "arrival": "2024-06-18T17:45:00",
+    "from": "DEL",
+    "to": "BOM",
+    "price": 2200
+  },
+  {
+    "id": 9,
+    "airline": "Airline I",
+    "flightNumber": "AI637",
+    "departure": "2024-06-17T16:25:00",
+    "arrival": "2024-06-17T18:30:00",
+    "from": "BOM",
+    "to": "BLR",
+    "price": 2900
+  },
+  {
+    "id": 10,
+    "airline": "Airline J",
+    "flightNumber": "AJ748",
+    "departure": "2024-06-17T17:15:00",
+    "arrival": "2024-06-17T19:20:00",
+    "from": "MAA",
+    "to": "DEL",
+    "price": 3000
+  },
+  {
+    "id": 11,
+    "airline": "Airline K",
+    "flightNumber": "AK859",
+    "departure": "2024-06-17T18:25:00",
+    "arrival": "2024-06-17T20:30:00",
+    "from": "DEL",
+    "to": "BOM",
+    "price": 2600
+  },
+  {
+    "id": 12,
+    "airline": "Airline L",
+    "flightNumber": "AL960",
+    "departure": "2024-06-17T19:54:00",
+    "arrival": "2024-06-17T21:04:00",
+    "from": "BOM",
+    "to": "DEL",
+    "price": 2700
+  },
+  {
+    "id": 13,
+    "airline": "Airline M",
+    "flightNumber": "AM071",
+    "departure": "2024-06-17T20:20:00",
+    "arrival": "2024-06-17T22:30:00",
+    "from": "BLR",
+    "to": "MAA",
+    "price": 2400
+  },
+  {
+    "id": 14,
+    "airline": "Airline N",
+    "flightNumber": "AN182",
+    "departure": "2024-06-18T21:20:00",
+    "arrival": "2024-06-18T23:30:00",
+    "from": "DEL",
+    "to": "BOM",
+    "price": 2500
+  },
+  {
+    "id": 15,
+    "airline": "Airline O",
+    "flightNumber": "AO293",
+    "departure": "2024-06-18T22:20:00",
+    "arrival": "2024-06-19T00:40:00",
+    "from": "BOM",
+    "to": "BLR",
+    "price": 2900
+  },
+  {
+    "id": 16,
+    "airline": "Airline P",
+    "flightNumber": "AP303",
+    "departure": "2024-06-17T06:20:00",
+    "arrival": "2024-06-17T08:30:00",
+    "from": "MAA",
+    "to": "DEL",
+    "price": 2600
+  },
+  {
+    "id": 17,
+    "airline": "Airline Q",
+    "flightNumber": "AQ327",
+    "departure": "2024-06-17T13:20:00",
+    "arrival": "2024-06-17T15:30:00",
+    "from": "BLR",
+    "to": "BOM",
+    "price": 2800
+  },
+  {
+    "id": 18,
+    "airline": "Airline R",
+    "flightNumber": "AR428",
+    "departure": "2024-06-18T10:20:00",
+    "arrival": "2024-06-18T12:30:00",
+    "from": "BOM",
+    "to": "MAA",
+    "price": 3200
+  },
+  {
+    "id": 19,
+    "airline": "Airline S",
+    "flightNumber": "AS529",
+    "departure": "2024-06-18T09:20:00",
+    "arrival": "2024-06-18T11:30:00",
+    "from": "DEL",
+    "to": "BLR",
+    "price": 2500
+  },
+  {
+    "id": 20,
+    "airline": "Airline T",
+    "flightNumber": "AT630",
+    "departure": "2024-06-17T14:20:00",
+    "arrival": "2024-06-17T16:30:00",
+    "from": "MAA",
+    "to": "BLR",
+    "price": 3000
+  }
+]

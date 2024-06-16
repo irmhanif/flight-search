@@ -1,0 +1,358 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+$button-color: #d32f2f;
+
+body {
+  font-family: Poppins, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.app {
+  .header {
+    background: #002543;
+    padding: 1rem;
+    h1 {
+      font-family: Merriweather, Arial, sans-serif;
+      color: #fff;
+      margin: 0;
+    }
+  }
+
+  .search-form {
+    padding: 1rem;
+    background: #fff;
+    box-shadow: 0rem 0.25rem 0.75rem -0.3125rem #65656585;
+    .form-group-search {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: flex-end;
+      flex-wrap: wrap;
+
+      .form-group {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        min-width: 12.5rem;
+        margin: 0.5rem;
+
+        input {
+          padding: 0.5rem;
+        }
+
+        label {
+          font-size: 10pt;
+        }
+      }
+
+      .arrowIcon {
+        margin-bottom: 0.9rem;
+        img {
+          width: 1.5625rem;
+        }
+      }
+
+      .search-button {
+        background: $button-color;
+        border: none;
+        padding: 0;
+        width: 100%;
+        max-width: 7rem;
+        color: #fff;
+        font-family: "Poppins";
+        border-radius: 0.1875rem;
+        cursor: pointer;
+        height: 2.1875rem;
+        margin: 0.5rem;
+      }
+    }
+  }
+
+  .search-result {
+    ul {
+      padding: 1rem 3rem;
+      margin-top: 0;
+    }
+
+    .sort-options {
+      padding: 1rem 3rem 0;
+      margin-bottom: 0;
+
+      label {
+        margin-right: 1rem;
+      }
+
+      select {
+        padding: 0.5rem;
+        border: 0.0625rem solid #ccc;
+        border-radius: 0.3125rem;
+      }
+      svg {
+        position: relative;
+        top: 3px;
+        left: 10px;
+      }
+    }
+
+    .flight-item {
+      background-color: white;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 0.3125rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .flight-details {
+        display: flex;
+        justify-content: space-between;
+        flex-basis: 85%;
+
+        .flight-airline-container {
+          display: flex;
+          flex-basis: 20%;
+          column-gap: 0.3125rem;
+
+          img {
+            width: 2rem;
+            height: 2rem;
+          }
+
+          .flight-airline {
+            display: flex;
+            flex-direction: column;
+            flex-basis: 60%;
+
+            .flight-airlinename {
+              font-size: 0.9rem;
+            }
+
+            .flight-number {
+              font-size: 0.75rem;
+              color: #777;
+            }
+          }
+        }
+
+        .flight-price {
+          align-content: center;
+          font-size: 1.2rem;
+          font-weight: bold;
+          flex-basis: 20%;
+          text-align: right;
+          color: #333;
+          padding-right: 25px;
+        }
+
+        .flight-timeCityContainer {
+          display: flex;
+          flex-basis: 50%;
+          justify-content: space-between;
+
+          .flight-travelTime {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex-basis: 25%;
+
+            .flight-travelIcon {
+              background: url(../assets/travel.jpg);
+              background-size: 100%;
+              height: 1.3125rem;
+              width: 10rem;
+              background-repeat: no-repeat;
+            }
+          }
+
+          .flight-timeContainer {
+            flex-basis: 20%;
+            display: flex;
+            flex-direction: column;
+
+            .flight-time {
+              font-family: "Poppins";
+              font-weight: 600;
+            }
+
+            .flight-cityName {
+              font-size: 0.875rem;
+              color: #313131;
+            }
+            .flight-nextDay {
+              color: $button-color;
+              font-size: 0.8rem;
+            }
+          }
+        }
+      }
+
+      .book-button {
+        background-color: $button-color;
+        color: white;
+        padding: 0.5rem 1rem;
+        border: none;
+        border-radius: 0.3125rem;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .main-content {
+    display: flex;
+    .sidebar {
+      flex-basis: 20%;
+      background: #fff;
+      min-height: 80vh;
+      h4 {
+        margin-bottom: 0;
+        cursor: pointer;
+        .filterIcon {
+          width: 0.875rem;
+        }
+      }
+      .filter {
+        display: flex;
+        flex-direction: column;
+        row-gap: 22px;
+        margin-top: 10px;
+        fieldset {
+          border: none;
+          label {
+            display: flex;
+          }
+        }
+        fieldset:nth-child(3),
+        fieldset:nth-child(4) {
+          label {
+            display: block;
+            input[type="text"] {
+              width: 100%;
+              padding: 8px;
+              box-sizing: border-box;
+            }
+            input[type="range"] {
+              width: 100%;
+              box-sizing: border-box;
+              & + span {
+                font-family: "Roboto Condensed";
+              }
+            }
+          }
+        }
+      }
+    }
+    .result-content {
+      flex-basis: 80%;
+    }
+  }
+
+  .mobile.main-content {
+    flex-direction: column;
+    .sidebar {
+      min-height: auto;
+      .mobile.filter {
+        position: absolute;
+        background: #fff;
+        z-index: 9999;
+        width: 100%;
+      }
+    }
+  }
+}
+
+/* Media query for larger screens */
+@media (min-width: 768px) {
+  .app {
+    .search-form {
+      .form-group-search {
+        flex-wrap: nowrap;
+
+        .search-button {
+          width: 7rem;
+        }
+      }
+    }
+  }
+}
+
+/* Media query for smaller screens */
+@media (max-width: 767px) {
+  .app {
+    .search-form {
+      padding: 0.5rem;
+
+      .form-group-search {
+        flex-direction: column;
+        align-items: normal !important;
+        .arrowIcon {
+          display: none;
+        }
+        .form-group {
+          margin: 0.5rem 0;
+        }
+
+        .search-button {
+          width: 100%;
+        }
+      }
+    }
+    .search-result {
+      ul {
+        padding: 1rem;
+      }
+      .sort-options {
+        padding: 1rem;
+      }
+      .flight-item {
+        flex-direction: column;
+
+        .flight-details {
+          flex-wrap: wrap;
+          position: relative;
+          .flight-airline-container {
+            flex-basis: 100%;
+            margin-bottom: 0.5rem;
+
+            img {
+              width: 3rem;
+              height: 3rem;
+            }
+
+            .flight-airline {
+              .flight-airlinename {
+                font-size: 1rem;
+              }
+              .flight-number {
+                font-size: 0.85rem;
+              }
+            }
+          }
+
+          .flight-price {
+            font-size: 1.2rem;
+            text-align: right;
+            flex-basis: 100%;
+            margin-top: 0.5rem;
+            position: absolute;
+            right: 0;
+          }
+
+          .flight-timeCityContainer {
+            flex-basis: 100%;
+            .flight-travelTime {
+              .flight-travelIcon {
+                width: 100%;
+              }
+            }
+          }
+        }
+
+        .book-button {
+          width: 100%;
+          margin-top: 1rem;
+        }
+      }
+    }
+  }
+}

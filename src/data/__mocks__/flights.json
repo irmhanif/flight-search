@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "airline": "Airline A",
+    "flightNumber": "AA123",
+    "departure": "2024-06-15T08:00:00",
+    "arrival": "2024-06-15T10:00:00",
+    "from": "DEL",
+    "to": "BOM",
+    "price": 2500
+  },
+  {
+    "id": 2,
+    "airline": "Airline B",
+    "flightNumber": "AB456",
+    "departure": "2024-06-15T09:00:00",
+    "arrival": "2024-06-15T11:00:00",
+    "from": "BLR",
+    "to": "DEL",
+    "price": 3000
+  }
+]
